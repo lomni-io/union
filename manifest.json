@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Lomni io",
+    "version": "1.0.0",
+    "description": "A basic example extension with only required keys",
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "side_panel": {
+        "default_path": "dist/index.html"
+    },
+    "permissions": [
+        "sidePanel"
+    ]
+}
